@@ -48,10 +48,11 @@ namespace TCTableBuilder
             tcCommands.SearchObjects(activeProj);
         }
 
+        //Getting values : Please change parameters what you want
         private void btGetValues_Click(object sender, EventArgs e)
         {
             liEstimation.Items.Clear();
-            List<List<string>> listSets = tcCommands.GetParamSelected(activeProj, "H-Pile번호","토사구간", "암구간");
+            List<List<string>> listSets = tcCommands.GetParamSelected(activeProj, "Param1", "Param2", "Param3");
             
             for(int i = 0; i<listSets.Count;i++)
             {
@@ -70,7 +71,7 @@ namespace TCTableBuilder
 
         private void btExportXls_Click(object sender, EventArgs e)
         {
-            msExcel.ExcelTest(liEstimation.Items.Count, 0, 0);
+            
         }
     }
 }
