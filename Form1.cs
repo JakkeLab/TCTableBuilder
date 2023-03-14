@@ -34,7 +34,7 @@ namespace TCTableBuilder
 
         private void btProjLoad_Click(object sender, EventArgs e)
         {
-            if(tcCommands.getActiveProject() != null)
+            if (tcCommands.getActiveProject() != null)
             {
                 activeProj = tcCommands.getActiveProject();
                 tbProjectname.Text = activeProj.Name;
@@ -56,7 +56,7 @@ namespace TCTableBuilder
             lbStatus.Text = "Loading Values";
             List<List<string>> listSets = tcCommands.GetParamSelected(activeProj, "H-Pile번호", "파일상단(EL)", "파일하단(EL)", "토사구간", "암구간");
             strList = listSets;
-            for (int i = 0; i<listSets.Count;i++)
+            for (int i = 0; i < listSets.Count; i++)
             {
                 var list = listSets[i];
                 string Idx = list[0].ToString();
@@ -66,10 +66,10 @@ namespace TCTableBuilder
                 string ExcLength = list[4].ToString();
                 string SandRange = list[5].ToString();
                 string RockRange = list[6].ToString();
-                string[] strs = new string[] {Idx, DesignedLength, PileTop, PileBottom, ExcLength, SandRange, RockRange};
+                string[] strs = new string[] { Idx, DesignedLength, PileTop, PileBottom, ExcLength, SandRange, RockRange };
                 ListViewItem lvi = new ListViewItem(strs);
                 liEstimation.Items.Add(lvi);
-                pgBar.Value = (i / listSets.Count)*100;
+                pgBar.Value = (i / listSets.Count) * 100;
             }
             tbStart.Enabled = true;
             tbEnd.Enabled = true;
@@ -81,7 +81,7 @@ namespace TCTableBuilder
         private void btExportXls_Click(object sender, EventArgs e)
         {
             lbStatus.Text = "Making Report";
-            if(Int32.TryParse(tbStart.Text, out int a1) && Int32.TryParse(tbEnd.Text, out int a2) && a1 < a2)
+            if (Int32.TryParse(tbStart.Text, out int a1) && Int32.TryParse(tbEnd.Text, out int a2) && a1 < a2)
             {
                 int n1 = Int32.Parse(tbStart.Text);
                 int n2 = Int32.Parse(tbEnd.Text);
@@ -92,7 +92,7 @@ namespace TCTableBuilder
             {
                 MessageBox.Show("시작번호와 끝번호 칸의 값이 잘못되었습니다");
             }
-            
+
             lbStatus.Text = "Idle";
         }
     }
