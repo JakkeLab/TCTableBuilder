@@ -187,8 +187,17 @@ namespace TCTableBuilder.MSExcel
                 #endregion
                 //저장경로 세팅 및 파일저장
                 string desktopPath = Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop);
-                string fileName = "항타일지.xlsx";
-                string filePath = Path.Combine(desktopPath, fileName);
+                string fileName = $"항타일지";
+                string fileExtension = ".xlsx";
+                string newFileName = fileName + fileExtension;
+
+                int index = 1;
+                while(File.Exists(Path.Combine(desktopPath, newFileName)))
+                {
+                    newFileName = $"{fileName}{index}{fileExtension}";
+                    index++;
+                }
+                string filePath = Path.Combine(desktopPath, newFileName);
                 workBook.SaveAs(filePath);
 
                 //메모리 관리

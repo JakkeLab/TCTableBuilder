@@ -22,3 +22,15 @@ C:\Users\sjak3\OneDrive\JAKK3 Lab\03_DEV\01_Project\05_BIM Addin\01_토목BIM\02
 C:\Users\sjak3\OneDrive\JAKK3 Lab\03_DEV\01_Project\05_BIM Addin\01_토목BIM\02_토목BIM검토도구\01_프로토타입\Repo\TCTableBuilder\bin\Debug\TCTableBuilder.exe.config
 C:\Users\sjak3\OneDrive\JAKK3 Lab\03_DEV\01_Project\05_BIM Addin\01_토목BIM\02_토목BIM검토도구\01_프로토타입\Repo\TCTableBuilder\bin\Debug\TCTableBuilder.exe
 C:\Users\sjak3\OneDrive\JAKK3 Lab\03_DEV\01_Project\05_BIM Addin\01_토목BIM\02_토목BIM검토도구\01_프로토타입\Repo\TCTableBuilder\bin\Debug\TCTableBuilder.pdb
+C:\Users\Jake\OneDrive\JAKK3 Lab\03_DEV\01_Project\05_BIM Addin\01_토목BIM\02_토목BIM검토도구\01_프로토타입\Repo\#Backup\TCTableBuilder\bin\Debug\TCTableBuilder.exe.config
+C:\Users\Jake\OneDrive\JAKK3 Lab\03_DEV\01_Project\05_BIM Addin\01_토목BIM\02_토목BIM검토도구\01_프로토타입\Repo\#Backup\TCTableBuilder\bin\Debug\TCTableBuilder.exe
+C:\Users\Jake\OneDrive\JAKK3 Lab\03_DEV\01_Project\05_BIM Addin\01_토목BIM\02_토목BIM검토도구\01_프로토타입\Repo\#Backup\TCTableBuilder\bin\Debug\TCTableBuilder.pdb
+C:\Users\Jake\OneDrive\JAKK3 Lab\03_DEV\01_Project\05_BIM Addin\01_토목BIM\02_토목BIM검토도구\01_프로토타입\Repo\#Backup\TCTableBuilder\obj\Debug\TCTableBuilder.csproj.AssemblyReference.cache
+C:\Users\Jake\OneDrive\JAKK3 Lab\03_DEV\01_Project\05_BIM Addin\01_토목BIM\02_토목BIM검토도구\01_프로토타입\Repo\#Backup\TCTableBuilder\obj\Debug\TCTableBuilder.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jake\OneDrive\JAKK3 Lab\03_DEV\01_Project\05_BIM Addin\01_토목BIM\02_토목BIM검토도구\01_프로토타입\Repo\#Backup\TCTableBuilder\obj\Debug\TCTableBuilder.csproj.ResolveComReference.cache
+C:\Users\Jake\OneDrive\JAKK3 Lab\03_DEV\01_Project\05_BIM Addin\01_토목BIM\02_토목BIM검토도구\01_프로토타입\Repo\#Backup\TCTableBuilder\obj\Debug\TCTableBuilder.Form1.resources
+C:\Users\Jake\OneDrive\JAKK3 Lab\03_DEV\01_Project\05_BIM Addin\01_토목BIM\02_토목BIM검토도구\01_프로토타입\Repo\#Backup\TCTableBuilder\obj\Debug\TCTableBuilder.Properties.Resources.resources
+C:\Users\Jake\OneDrive\JAKK3 Lab\03_DEV\01_Project\05_BIM Addin\01_토목BIM\02_토목BIM검토도구\01_프로토타입\Repo\#Backup\TCTableBuilder\obj\Debug\TCTableBuilder.csproj.GenerateResource.cache
+C:\Users\Jake\OneDrive\JAKK3 Lab\03_DEV\01_Project\05_BIM Addin\01_토목BIM\02_토목BIM검토도구\01_프로토타입\Repo\#Backup\TCTableBuilder\obj\Debug\TCTableBuilder.csproj.CoreCompileInputs.cache
+C:\Users\Jake\OneDrive\JAKK3 Lab\03_DEV\01_Project\05_BIM Addin\01_토목BIM\02_토목BIM검토도구\01_프로토타입\Repo\#Backup\TCTableBuilder\obj\Debug\TCTableBuilder.exe
+C:\Users\Jake\OneDrive\JAKK3 Lab\03_DEV\01_Project\05_BIM Addin\01_토목BIM\02_토목BIM검토도구\01_프로토타입\Repo\#Backup\TCTableBuilder\obj\Debug\TCTableBuilder.pdb
