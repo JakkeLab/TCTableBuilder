@@ -71,7 +71,7 @@ namespace TCTableBuilder.TCcommands
             project.ModelObjectManager.SetSelected(false);
             var modelsContainsParams = project.ModelObjectManager.GetModelObjects().Where(x => x.GetAttributeNames().ToList().Contains("암구간") &&
                                                                             x.GetAttributeNames().ToList().Contains("토사구간")).ToList();
-            if(modelsContainsParams.Any())
+            if (modelsContainsParams.Any())
             {
                 project.ModelObjectManager.SetSelected(true, modelsContainsParams);
             }
@@ -80,8 +80,8 @@ namespace TCTableBuilder.TCcommands
         //특정 파라미터 추출하기
         //value1 : 파일번호, value2 : 설계 천공심도, value3 : 파일상단, value4 : 파일하단, value5 : 천공심도, value6 : 토사구간, value7 : 암구간
         //value2 = Math.Abs(value3 - value4), value5 = value6 + value7
-        public List<List<string>> GetParamSelected(Project project, string param1,string param3, string param4, 
-                                                    string param6, string param7) 
+        public List<List<string>> GetParamSelected(Project project, string param1, string param3, string param4,
+                                                    string param6, string param7)
         {
             //전체 선택 해제
             project.ModelObjectManager.SetSelected(false);
@@ -91,7 +91,7 @@ namespace TCTableBuilder.TCcommands
             List<List<string>> list = new List<List<string>>();
 
             //모델 Loop 방식으로 추출하기
-            foreach(ModelObject model in modelsContainsParams)
+            foreach (ModelObject model in modelsContainsParams)
             {
                 //각 파라미터별로 파라미터 셋을 null로 지정하여 파라미터 셋에 따로 포함시키지 않고 추출
                 AttributeSet attrSetParam1 = model.GetAttribute(param1, null).First();
@@ -101,7 +101,7 @@ namespace TCTableBuilder.TCcommands
                 AttributeSet attrSetParam7 = model.GetAttribute(param7, null).First();
                 //string으로 파싱
                 string value1 = attrSetParam1.IntAttributes.First().Value.ToString();
-                string value2 = Math.Abs(attrSetParam3.LengthAttributes.First().Value 
+                string value2 = Math.Abs(attrSetParam3.LengthAttributes.First().Value
                                             - attrSetParam4.LengthAttributes.First().Value).ToString("F2");
                 string value3 = attrSetParam3.LengthAttributes.First().Value.ToString("F2");
                 string value4 = attrSetParam4.LengthAttributes.First().Value.ToString("F2");

@@ -155,7 +155,7 @@ namespace TCTableBuilder.MSExcel
                 #endregion
 
                 #region 값 기록
-                for(int i = idxStart-1; i<idxEnd; i++)
+                for (int i = idxStart - 1; i < idxEnd; i++)
                 {
 
                     List<string> currentLine = items[i];
@@ -233,5 +233,5 @@ namespace TCTableBuilder.MSExcel
             }
         }
     }
-    
+
 }
